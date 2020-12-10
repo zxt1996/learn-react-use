@@ -14,3 +14,8 @@ const createMemo = <T extends (...args: any) => any>(fn: T) => (...args: Paramet
     useMemo<ReturnType<T>>(() => fn(...args), args);
 
 export default createMemo;
+
+
+// useMemo和shouldComponentUpdate的区别在于useMemo只是一个通用的无副作用的缓存Hook，并不会影响组件的渲染与否。
+// useMemo为我们提供了一种通用的性能优化方法，
+// 对于一些耗性能的计算，我们可以用useMemo来缓存计算结果，只要依赖的参数没有发生变化，就达到了性能优化的目的。
