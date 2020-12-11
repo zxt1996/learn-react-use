@@ -5,7 +5,8 @@ import React from 'react';
 // import { Demo, DemoWrong } from './components/useGetSet.Demo';
 // import { Demo } from './components/useGetSetState.Demo';
 // import { Demo } from './components/useFirstMountState.Demo';
-import { Demo } from './components/useLatest.Demo';
+// import { Demo } from './components/useLatest.Demo';
+import { Demo } from './components/useRendersCount.Demo';
 
 
 function App() {
