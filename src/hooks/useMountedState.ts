@@ -8,7 +8,6 @@ export default function useMountedState(): () => boolean {
     );
 
     useEffect(() => {
-        console.log("jo")
         mountedRef.current = true;
 
         return () => {
