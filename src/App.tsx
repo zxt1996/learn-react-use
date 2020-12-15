@@ -10,7 +10,8 @@ import React from 'react';
 // import { Demo } from './components/useSet.Demo';
 // import { Demo } from './components/useSetState.Demo';
 // import { Demo } from './components/useToggle.Demo';
-import { Demo } from './components/useCustomCompareEffect.Demo';
+// import { Demo } from './components/useCustomCompareEffect.Demo';
+import { Demo } from './components/useMountedState.Demo';
 
 
 function App() {
